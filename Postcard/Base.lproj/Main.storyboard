@@ -62,6 +62,12 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="t5f-BU-pep"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="nameLabel" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xbk-IA-Y17">
+                                <rect key="frame" x="58" y="173" width="78" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -88,11 +94,12 @@
                         <outlet property="enterNameTextField" destination="mOb-t2-tDK" id="dTF-ee-5nG"/>
                         <outlet property="mailButton" destination="pOK-47-1S4" id="AUX-Eq-KBk"/>
                         <outlet property="messageLabel" destination="LDX-yN-FFv" id="ALe-71-FEU"/>
+                        <outlet property="nameLabel" destination="xbk-IA-Y17" id="rsH-SD-MEn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1714.5" y="311"/>
+            <point key="canvasLocation" x="1714" y="311"/>
         </scene>
         <!--Barcelona-->
         <scene sceneID="xhh-sW-9yH">
@@ -103,6 +110,7 @@
                         <viewControllerLayoutGuide type="bottom" id="HFM-X9-x75"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="rp4-UF-7Xs">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SagradaFamilia.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="JOx-35-DMd">
